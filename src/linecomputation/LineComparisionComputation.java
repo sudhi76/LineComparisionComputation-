@@ -16,11 +16,14 @@ public class LineComparisionComputation {
 		
 	}
 	public static void equalityCheck(int lineLength1 , int lineLength2 ) {
-		if(lineLength1 == lineLength2 ) {
+		if(lineLength1 == lineLength2) {
 			System.out.println("Lines are Equal");
 		}
+		else if (lineLength1 > lineLength2) {
+			System.out.println("Line 1 is greater than line 2");
+		}
 		else {
-			System.out.println("Lines are not Equal");
+			System.out.println("Line 2 is greater than line 1");
 		}
 	}
 
